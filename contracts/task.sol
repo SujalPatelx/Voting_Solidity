@@ -49,7 +49,7 @@ contract Task{
             }
         }
         winner = candidates[winnerIndex].name;
-        return  (winner);
+            return(winner);
     }
 
     function allCandidates () public view returns (Candidate[] memory) {
