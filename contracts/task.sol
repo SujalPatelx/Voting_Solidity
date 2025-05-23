@@ -7,7 +7,7 @@ contract Task{
         string name;
         uint256 vote;
     }
-    
+
     address private admin;
     string public winner;
     Candidate[] public candidates;
